@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "commonjs",
+    "lib": ["es6", "es2017","esnext.asynciterable", "dom", "dom.iterable"],
+    "target": "es5",
+    "noImplicitThis": false,
+    "noImplicitAny": false,
+    "sourceMap": false,
+    "allowJs": true,
+    "emitDecoratorMetadata": true,
+    "strict": true,
+    "noUnusedLocals": false,
+    "alwaysStrict": true,
+    "importHelpers": true,
+    "noFallthroughCasesInSwitch": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/app/app.ts",
+    "src/app/**/*.ts"
+  ],
+
+  "exclude": ["node_modules"]
+}
